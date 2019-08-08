@@ -5,16 +5,18 @@ Stream the SteemEngine Chain and store the current block into a Redis server giv
 ## Installation
 
 Clone the repo & install dependencies.
-
 ```bash
 git clone https://github.com/hightouch67/steemengine-stream.git
 cd steemengine-stream
 npm install 
 ```
+Put your Redis Server info into redis.js
+
 Start the stream 
 ```bash
 npm run
 ```
+
 
 ## Documentation
 
