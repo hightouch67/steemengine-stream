@@ -11,10 +11,9 @@ const server = app.listen(port, () => console.log(`[start] Listening on ${port}`
 //** Start with a custom block number */
 // const customBlockNum = 0; 
 // redis.setAsync('block_height', customBlockNum).then(() => {
-//   handleBlock(customBlockNum);
+// console.log('CustomBlock set to ' + customBlockNum) 
 // }).catch((err) => {
 //   console.error("Failed to set 'block_height' on Redis", err);
-//   handleBlock(customBlockNum);
 // });
 
 let lastBlockNum = 0;
