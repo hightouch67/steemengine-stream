@@ -1,6 +1,6 @@
 # SteemEngine Stream + Redis
 
-Stream the SteemEngine Sidechain and store the current block into a Redis server giving you a good base which does not miss blocks.
+Stream the SteemEngine Chain and store the current block into a Redis server giving you a good base which does not miss blocks.
 
 ## Installation
 
